@@ -1,0 +1,89 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+/* universal reset */
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* global*/
+nav ul{
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    text-align: left    ;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-family: Prata, serif;
+    color: darkgreen;
+}
+
+
+nav li a:hover{
+    color: white;
+    background-color: darkgreen;
+}
+
+body{
+    background-image: url('../img/xmasBG.jpeg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:cover;
+    margin: 0 auto;
+    font-family: Prata, serif;
+    color: white;
+
+}
+
+section{
+    display: flex;
+    flex-flow: wrap row;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+    padding: 50px;
+    /* justify-content: space-evenly; */
+    align-content: center;
+    gap: 10px;
+    column-gap: 30px;
+    background: rgba(6, 38, 5, .6);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+/* specific styles */
+.starGIF{
+    max-height: 100px;
+}
+
+.snowGIF{
+    max-height: 100px;
+}
+
+.cheersGIF{
+   max-height: 100px;
+}
+
+.hollyGIF{
+    max-height: 100px;
+}
